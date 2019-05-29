@@ -1,0 +1,19 @@
+.price-free{
+	color:#f8f8f8;
+	background-color:#4b596c;
+}
+.pricelist-item-free{
+	color:#50565f;
+}
+.pricelist-item-free-price{
+	font-size:22px;
+	font-weight:bold;
+	line-height:85px;
+	color:#60666e;
+}
+.accept-free{
+	background-color:#4b596c;
+}
+.list-free{
+	background-color:#e9eef3;
+}

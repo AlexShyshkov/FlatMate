@@ -1,0 +1,19 @@
+.price-enterprise{
+	color:#f8f8f8;
+	background-color:#58a1ad;	
+}
+.pricelist-item-entpr{
+	color:#525760;
+}
+.pricelist-item-entpr-price{
+	font-size:22px;
+	font-weight:bold;
+	line-height:85px;
+	color:#58a1ad;
+}
+.accept-enterprise{
+	background-color:#58a1ad;	
+}
+.list-enterprise{
+	background-color:#deebde;
+}

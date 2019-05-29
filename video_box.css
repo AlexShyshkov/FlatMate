@@ -1,0 +1,28 @@
+:root{
+	--video-box-color:#ab3737;
+}
+.video-box{
+	background:var(--video-box-color);
+}
+.video-box-content{
+	position:relative;
+	width:1300px;
+	height:600px;
+	background:var(--video-box-color);
+	margin:auto;
+}
+.video{
+	/*width:900px;
+	height:600px;
+	margin:auto;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin-left:300px;
+	display:inline-block;*/
+	background-color:black;
+	width:1300px;
+	height:600px;
+}

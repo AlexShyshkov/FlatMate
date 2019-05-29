@@ -1,0 +1,114 @@
+:root{
+	--hd-txt-color:#d8d8d8;
+	--hd-btn-color:#3d4b60;
+	--hd-btn-hover:#2d3c50;
+	--hd-btn-txt-color:#f5f5f5;
+	--hd-txt-bottom-color:#f8f8f8;
+}
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:0;
+	font-family:PT Serif, Arial, sans-serif;
+}
+.header{
+	background-image: url(images/main_img.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;	
+}
+.header-box{
+	background-color:rgba(69,84,105,0.7);
+}
+.header-content{
+	width:1300px;
+	height:690px;
+	margin:auto;
+	padding-top:30px;
+}
+.header-content-top{
+	position:relative;
+}
+.header-logo{
+	display:inline-block;
+	text-decoration:none;
+	line-height:50px;
+}
+.header-register{
+	display:inline-block;
+	opacity:0.9;
+}
+.header-register-question{
+	display:inline-block;
+	font-size:25px;
+	color:var(--hd-txt-color);
+	position:absolute;
+	right:200px;
+	top:15px;
+}
+.header-register-login{
+	display:inline-block;
+	font-size:30px;
+	background-color:var(--hd-btn-color);
+	color:var(--hd-btn-txt-color);
+	width:140px;
+	/*height:42px;*/
+	text-align:center;
+	line-height:35px;
+	border-radius:10px;
+	position:absolute;
+	right:0;
+	top:8px;
+	padding-top:3px;
+	padding-bottom:3px;
+	box-sizing:padding-box;
+}
+.header-register-login:hover{
+	transition:0.4s;
+	background-color:var(--hd-btn-hover);
+}
+.header-content-bottom{
+	position:relative;
+	margin-top:120px;
+}
+.header-text{
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+}
+.header-text-tittle{
+	font-size:36px;
+	color:var(--hd-txt-bottom-color);
+	margin-bottom:25px;	
+}
+.header-text-description{
+	font-size:20px;
+	color:var(--hd-txt-bottom-color);
+	margin-bottom:25px;
+	line-height:25px;
+}
+.read-more-button{
+	display:block;
+	font-size:30px;
+	color:#f8f8f8;
+	background-color:#67bf95;
+	width:180px;
+	/*height:50px;*/
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	border-radius:10px;
+}
+.read-more-button:hover{
+	transition:0.8s;
+	background-color:#f8f9f8;
+}
+.header-msg-icon{
+	display:inline-block;
+	width:260px;
+	height:260px;
+	position:absolute;
+	right:190px;
+}

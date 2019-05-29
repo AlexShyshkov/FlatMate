@@ -1,0 +1,75 @@
+:root{
+	--load-bg-color:#f6f6f7;
+	--load-txt-color:#333;
+	--btn-color:#52ad81;
+}
+.load_doc_section{
+	background: var(--load-bg-color);
+}
+.load_doc_content{
+	position:relative;
+	width:1300px;
+	height:350px;
+	margin:auto;
+	background:var(--load-bg-color);
+}
+.load_doc_icon{
+	position:absolute;
+	width:200px;
+	height:300px;
+	background:url(images/load_doc_icon.png) no-repeat 0 50%;
+	background-position:50% 50%;
+	background-size:240px;
+	display:inline-block;
+	margin-top:20px;
+}
+.load_doc_icon:hover{
+	cursor:pointer;
+}
+.load_doc_text{
+	display:inline-block;
+	position:absolute;
+	top:60px;
+	left:320px;
+	right:0;
+	width:600px;
+}
+.load_doc_head{
+	display:block;
+	font-size:32px;
+	line-height:72px;
+	color:var(--load-txt-color);
+}
+.load_doc_description{
+	display:block;
+	font-size:18px;
+	color:var(--load-txt-color);
+}
+.load_doc_buttons{
+	display:inline-block;
+	position:absolute;
+	top:80px;
+	right:60px;
+}
+.edit-btn{
+	display:block;
+	border-radius:50%;
+	line-height:50px;
+	text-align:center;
+	margin-bottom:5px;
+}
+.edit-btn:hover{
+	opacity:0.45;
+	transition:0.3s;
+}
+.fb-btn{
+	display:block;
+	border-radius:50%;
+	line-height:50px;
+	text-align:center;
+	margin-bottom:5px;
+}
+.fb-btn:hover{
+	opacity:0.45;
+	transition:0.3s;
+}

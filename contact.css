@@ -1,0 +1,114 @@
+:root{
+	--contact-color:#2d3136;
+	--logo-color:#be393be;
+	--shadow-color:#383939;
+	--redstar-color:#be393b;
+	--label-color:#f8f8f8;
+	--input-color:#2a2d33;
+	--border-color:#aaa;
+	--send-color:#f9f9f9;
+	--send-hover:#ff4500;
+}
+.contact{
+	background:var(--contact-color);
+}
+.contact-box{
+	position:relative;
+	width:1300px;
+	height:900px;
+	background:var(--contact-color);
+	margin:auto;
+}
+.mail_logo{
+	position:absolute;
+	left:0;
+	right:0;
+	top:120px;
+	margin:auto;
+	width:190px;
+	height:190px;
+	background:var(--logo-color) no-repeat 50%;
+	background-size:136px;
+	border-radius:50%;
+	box-shadow:0 0 0 15px var(--shadow-color);
+	opacity:0.9;
+}
+.mail-image{
+	height:100%;
+	width:100%;
+}
+.mail_logo:hover{
+	background-size:140px;
+	opacity:1;
+	transition:0.4s;
+	cursor:pointer;
+}
+.red-star{
+	font-size:32px;
+	color:var(--redstar-color);
+}
+.contact-name, .contact-email{
+	width:460px;
+	height:180px;
+}
+.contact-message{
+	position:absolute;
+	left:500px;
+	right:0;
+	top:0;
+	bottom:140px;
+	display:block;
+	width:540px;
+}
+.label-contact{
+	display:block;
+	color:var(--label-color);
+	font-size:24px;
+	padding-bottom:20px;
+}
+.contact-input{
+	width:380px;
+	height:60px;
+	color:var(--label-color);
+	font-size:18px;
+	background-color:var(--input-color);
+	border:1px solid var(--border-color);
+	border-radius:10px;
+	padding:0 10px;
+}
+.contact-textarea{
+	color:var(--label-color);
+	font-size:18px;
+	width:460px;
+	height:223px;
+	background-color:var(--input-color);
+	border: 1px solid var(--border-color);
+	border-radius:10px;
+	padding:10px 20px;
+}
+.contact-send{
+	text-transform:uppercase;
+	width:200px;
+	height:60px;
+	font-size:28px;
+	color:var(--send-color);
+	background-color:var(--redstar-color);
+	border-radius:5px;
+	display:block;
+	position:relative;
+	top:10px;
+	left:800px;
+}
+.contact-send:hover{
+	cursor:pointer;
+	background-color:var(--send-hover);
+}
+.contact-form{
+	position:absolute;
+	left:0;
+	right:0;
+	top:400px;
+	bottom:0;
+	margin:auto;
+	width:1000px;
+}

@@ -1,0 +1,22 @@
+.additional-text{
+	background-color:#e9eaed;
+}
+.additional-text-content{
+	background-color:#e9eaed;
+	width:1300px;
+	height:150px;
+	margin:auto;
+	position:relative;
+}
+.text{
+	width:1300px;
+	height:100px;
+	background-color:#e9eaed;
+	text-align:center;
+	font-size:32px;
+	font-weight:bold;
+	color:#444;
+	line-height:100px;
+	position:absolute;
+	top:30px;
+}
